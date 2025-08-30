@@ -114,8 +114,7 @@ streamlit run demo_app.py
 - Best for live demonstrations
 
 ### **Command Line Demo**
-```bash
-python robust_pipeline.py
+
 ```
 - Terminal-based demonstration
 - Shows technical implementation
