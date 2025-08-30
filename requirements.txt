@@ -1,0 +1,8 @@
+# Essential packages for core functionality
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# Optional packages for enhanced functionality (graceful fallbacks if missing)
+duckduckgo-search>=3.9.0
+google-generativeai>=0.3.0
+requests>=2.31.0
