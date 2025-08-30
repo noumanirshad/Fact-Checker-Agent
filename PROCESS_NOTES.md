@@ -2,7 +2,7 @@
 
 **AiForAll Hackathon Challenge Submission**  
 **Development Time:** ~4-5 hours  
-**Submitted by:** [Your Name]
+**Submitted by:** NOUMAN IRSHAD
 
 ## 🎯 Project Overview
 
@@ -44,7 +44,7 @@ Built a fully functional AI-powered fact-checking agent that processes claims th
 
 ### Additional Features
 
-- **Comprehensive Testing Suite** (`test_demo.py`)
+- **Comprehensive Testing Suite** (`quick_test.py`)
   - Automated testing with diverse claim types
   - Performance benchmarking
   - Result export to JSON format

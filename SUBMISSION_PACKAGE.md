@@ -10,13 +10,13 @@
 
 ### Option 1: Streamlit Demo App (Recommended)
 ```bash
-streamlit run demo_app.py
+streamlit run app.py
 ```
 **Access**: Open browser to `http://localhost:8501`
 
 ### Option 2: Command Line Demo  
 ```bash
-python robust_pipeline.py
+python quick_test.py
 ```
 
 ### Option 3: Mock Data Showcase
@@ -29,7 +29,7 @@ python demo_with_mock_data.py
 ## 📋 **DELIVERABLES CHECKLIST**
 
 ### ✅ 1. Working Prototype (Demo Link)
-- **File**: `demo_app.py` - Streamlit web interface
+- **File**: `app.py` - Streamlit web interface
 - **Features**: Complete flow: Claim → Sources → Verdict → Social Post
 - **Accessibility**: Runs locally, deployable to Streamlit Cloud
 - **Reliability**: Handles API failures with graceful fallbacks
@@ -40,9 +40,8 @@ python demo_with_mock_data.py
 
 ### ✅ 3. Code Snippets & Architecture
 - **Main Pipeline**: `fact_checker_pipeline.py` - Full implementation
-- **Robust Version**: `robust_pipeline.py` - Rate-limit handling
 - **Config**: `config.py` - Centralized settings
-- **Tests**: `test_demo.py` - Comprehensive testing suite
+- **Tests**: `quick_test.py` - Comprehensive testing suite
 
 ### ✅ 4. Test Evidence
 - **Sample Claims**: Pre-loaded in demo interface
@@ -172,9 +171,7 @@ fact-checker-agent/
 │   ├── PROCESS_NOTES.md       # Development documentation
 │   └── SUBMISSION_PACKAGE.md  # This file
 │
-└── 📋 HACKATHON MATERIALS
-    ├── Project_requirements.txt # Original challenge
-    └── Project_pipeline.txt    # Initial planning notes
+└── 
 ```
 
 ---
